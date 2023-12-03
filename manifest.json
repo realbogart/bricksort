@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bricksort",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.bricklink.com/invSetVerify.asp"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
